@@ -1,0 +1,16 @@
+{
+  "name": "teste-embedding-calculator-main",
+  "version": "1.0.0",
+  "description": "### Para rodar os testes Certifique-se que a api de reconhecimento esteja rodando na porta 3393",
+  "main": "test_async.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "form-data": "^4.0.1",
+    "node-fetch": "^3.3.2"
+  }
+}
