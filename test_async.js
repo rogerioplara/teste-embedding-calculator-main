@@ -39,7 +39,7 @@ async function sendImage(imageName, imageData) {
 
         const elapsedTime = Date.now() - startTime;
 
-        console.log(`Img: ${imageName}, Status Code: ${response.status}, Tempo decorrido: ${elapsedTime}ms Iteration: ${iterationCount} | Subjects: ${numObjects}`);
+        console.log(`Img: ${imageName}\nStatus Code: ${response.status}, Tempo decorrido: ${elapsedTime}ms Iteration: ${iterationCount} | Subjects: ${numObjects}`);
 
         // responseData.faces.forEach(face => {
         //     const { age, detection, face_points, is_male, pose } = face;
