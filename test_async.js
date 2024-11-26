@@ -3,7 +3,7 @@ import path from 'path';
 import fetch from 'node-fetch';
 import FormData from 'form-data';
 
-const url = "http://localhost:3393/find_faces";
+const url = "http://127.0.0.1:3393/find_faces";
 const sampleImages = "./sample_images";
 
 const imagePaths = fs.readdirSync(sampleImages)
